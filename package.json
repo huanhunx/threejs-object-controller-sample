@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "reinstall": "npm un threejs-object-controls && npm i -s file:../lib-source/threejs-object-controls-1.0.0.tgz && npm start"
+    "build": "vue-cli-service build --dest sample",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",

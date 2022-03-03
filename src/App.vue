@@ -12,8 +12,6 @@ export default {
   name: "App",
   components: {},
   mounted() {
-    // console.log(CameraControls);
-    // console.log(ObjectControls);
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
       75,
